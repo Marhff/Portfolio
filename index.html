@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio </title>
+
+    <!--========== HTML META TAGS ===========-->
+    <meta
+      name="description"
+      content="Portfolio Marcos F."
+    />
+    <meta name="author" content="Marcos França" />
+   
+
+    <!--=========== FAVICON ===============-->
+    <link rel="icon" href="./assets/svg/logo.svg" type="image/svg+xml" />
+
+    <!--============ GOOGLE FONTS ============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--============ CSS ============-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="preload" href="./assets/css/style.css" as="style" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!--============ HEADER ============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#home" class="nav_logo">
+          Marcos França
+          <img
+            src="assets/svg/logo.svg"
+            width="25"
+            height="34"
+            alt="Thiago{}"
+            class="nav_logo-img"
+          />
+        </a>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link active-link">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">Sobre</a>
+            </li>
+            <li class="nav_item">
+              <a href="#projects" class="nav_link">Projetos</a>
+            </li>
+            <li class="nav_item">
+              <a href="#services" class="nav_link">Contato</a>
+            </li>
+          </ul>
+          <div class="nav_close" id="nav-close">
+            <img src="./assets/svg/close-menu.svg" alt="Button Close Menu" />
+          </div>
+        </div>
+        <div class="nav_btns">
+          <img
+            class="change-theme"
+            id="theme-button"
+            src="./assets/svg/button-change-theme.svg"
+            width="36"
+            height="36"
+            alt="Button Change Theme"
+          />
+          <div class="nav_toggle" id="nav-toggle">
+            <img src="./assets/svg/menu.svg" alt="Menu" />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--============ MAIN ============-->
+    <main class="main">
+      <!--============ HOME ============-->
+      <section aria-label="home" class="home" id="home">
+        <img class="home_vector" src="./assets/svg/vector.svg" alt="Lines" />
+        <div class="home_container container grid">
+          <div class="home_data">
+            <p class="home_text">Olá,eu sou o Marcos.</p>
+            <h1 class="home_title">
+              Front End & <br />
+              Design
+            </h1>
+            <p class="home_description">
+              Front End & Design Sempre em busca de mais conhecimento e
+                Aprendizado.  💻
+            </p>
+            <div class="home_icons">
+              <a href="https://github.com/Marhff" target="_blank"
+                ><img
+                  class="home_links"
+                  src="./assets/svg/github.svg"
+                  width="38"
+                  height="38"
+                  alt="Github"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/marcos-frança-a7847a1b2/"
+                target="_blank"
+                ><img
+                  class="home_links"
+                  src="./assets/svg/linkedin.svg"
+                  width="38"
+                  height="38"
+                  alt="Linkedin"
+              /></a>
+              <a href="https://api.whatsapp.com/send?phone=5531971860430" target="_blank"
+              ><img
+                class="about_links"
+                src="assets/img/telefone (1).png"
+                width="38"
+                height="38"
+                alt="Github"
+            /></a>
+          </div>
+          </div>
+          <img
+            src="assets/img/people.webp"
+            alt="People Thiago"
+            width="282"
+            height="792"
+            class="home_img"
+          />
+        </div>
+      </section>
+      <!--============ ABOUT ============-->
+      <section aria-label="about" class="about section container" id="about">          
+        <div class="about_data">
+          <img
+            class="about_img"
+            src="./assets/img/perfil-laptop.jpeg"
+            width="421"
+            height="590"
+            alt="People"
+          />
+          <div class="about_text">
+            <h2 class="about_title">
+              About Me<span class="about_pont">.</span>
+            </h2>
+            <p class="about_description">
+              Olá,meu nome e <strong style="color:#646464 ;"> Marcos França </strong>porém muitos me chamam de Marhf, moro no interior de Minas Gerais, sou estudante de <strong style="color:#646464 ;"> Análise e Desenvolvimento de Sistemas.</strong> <br>
+              Atuo na área a mais de 3 anos , sou facinado por tecnologia,computadores , robôs e o espaço sideral!🚀
+            </p>
+            <a class="about_button" href="/">Download CV</a>
+            <div class="about_icons">
+              <a href="assets/Currículo MF.pdf" target="_blank"
+                ><img
+                  class="about_links"
+                  src="./assets/svg/github.svg"
+                  width="38"
+                  height="38"
+                  alt="Github"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/marcos-frança-a7847a1b2/"
+                target="_blank"
+                ><img
+                  class="about_links"
+                  src="./assets/svg/linkedin.svg"
+                  width="38"
+                  height="38"
+                  alt="Linkedin"
+              /></a>
+              <a href="https://api.whatsapp.com/send?phone=5531971860430" target="_blank"
+                  ><img
+                    class="about_links"
+                    src="assets/img/telefone (1).png"
+                    width="38"
+                    height="38"
+                    alt="Github"
+                /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--============ PROJECTS ============-->
+      <section
+        aria-label="projects"
+        class="projects container grid"
+        id="projects"
+      >
+        <h2 class="project_title">
+          Projects<span class="project_pont">.</span>
+        </h2>
+        
+        <div class="project_container">
+          <div class="project_data">
+            <div class="project_box">
+              <a href="https://marhff.github.io/Clock/index.html" target="_blank">
+              <img
+                class="project_img"
+                src="./assets/img/cloock 3d 2.png"
+                width="322"
+                height="322"
+                alt=""
+              />
+              </a>
+              <div class="project_img_text">
+                <img
+                  class="project_icon"
+                  src="./assets/img/perfil-laptop.jpeg"
+                  width="56"
+                  height="56"
+                  alt="Kennedy"
+                />
+                <div>
+                  <p class="project_text">Minimal Clock</p>
+                  <p class="project_description">
+                    Created by <span class="project_white">Marcos F.</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project_data">
+            <div class="project_box">
+              <a href="https://marhff.github.io/Firstwebsite/index.html" target="_blank">
+              <img
+                class="project_img"
+                src="./assets/img/diploma 3d.png"
+                width="322"
+                height="322"
+                alt=""
+              />
+              </a>
+              <div class="project_img_text">
+                <img
+                  class="project_icon"
+                  src="./assets/img/perfil-laptop.jpeg"
+                  width="56"
+                  height="56"
+                  alt="Kennedy"
+                />
+                <div>
+                  <p class="project_text">Site Marketing</p>
+                  <p class="project_description">
+                    Created by <span class="project_white">Marcos F.</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project_data">
+            <div class="project_box">
+              <a href="https://marhff.github.io/Simplesite/index.html" target="_blank">
+              <img
+                class="project_img"
+                src="./assets/img/pc 3d.png"
+                width="322"
+                height="322"
+                alt=""
+              />
+              </a>
+              <div class="project_img_text">
+                <img
+                  class="project_icon"
+                  src="./assets/img/perfil-laptop.jpeg"
+                  width="56"
+                  height="56"
+                  alt="Kennedy"
+                />
+                <div>
+                  <p class="project_text">Minimal Site </p>
+                  <p class="project_description">
+                    Created by <span class="project_white">Marcos F.</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--============ CONTATO ============-->
+      <section
+        aria-label="services"
+        class="services container grid"
+        id="services"
+      >
+        <h2 class="services_title">
+          Contatos<span class="services_pont">.</span>
+        </h2>
+<link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--========== CONTACT FORM ===========-->
+    <div class="contact">
+      <section class="contact_dice">
+        <div class="contact_adress">
+          <i class="bx bx-mail-send"></i>
+          <div>
+            <p class="title_adress">Email</p>
+            <p class="content_adress">Você pode entrar em contato pelo<br> e-mail :</p>
+            <p class="content_adress-2"><e-mail>marcoshafranca@outlook.com</e-mail></p>
+          </div>
+        </div>
+
+        <div class="contact_office">
+          <i class="bx bxs-map"></i>
+          <div>
+            <p class="title_office">Escritorio</p>
+            <p class="content_office">Brasil</p>
+            <p class="content_office-2">
+              Minas Gerais
+            </p>
+          </div>
+        </div>
+
+        <div class="contact_chat">
+          <i class="bx bxs-phone-call"></i>
+          <div>
+            <p class="title_chat">Telefone</p>
+            <p class="content_chat">Seg-Sab de 8:00 as 18:00.</p>
+            <p class="content_office-2">+55 (31) 9 7186-0430</p>
+          </div>
+        </div>
+        <div class="contact_icons">
+          <a href="https://github.com/Marhff" target="_blank"
+            ><img
+              class="home_links"
+              src="./assets/svg/github.svg"
+              width="38"
+              height="38"
+              alt="Github"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/marcos-frança-a7847a1b2/"
+            target="_blank"
+            ><img
+              class="home_links"
+              src="./assets/svg/linkedin.svg"
+              width="38"
+              height="38"
+              alt="Linkedin"
+          /></a>
+          <a href="https://api.whatsapp.com/send?phone=5531971860430" target="_blank"
+          ><img
+            class="about_links"
+            src="assets/img/telefone (1).png"
+            width="34"
+            height="34"
+            alt="Github"
+        /></a>
+        <a href="https://instagram.com/marcos.franca.5?igshid=YzAyZWRlMzg=" target="_blank"
+        ><img
+          class="about_links"
+          src="assets/img/insta.png"
+          width="42"
+          height="42"
+          alt="Github"
+      /></a>
+        </div>
+      </div>
+    </section>
+      </section>
+    </main>
+     <!--
+                ,
+            |`-.__
+            / ' _/
+           ****` 
+          /    }
+         /  \ /
+     \ /`   \\\
+THEO  `\    /_\\
+       `~~~~~``~`
+     -->
+    <!--============ FOOTER ============-->
+    <footer class="footer section">
+      <p class="footer_text">@ 2022 - Marcos França</p>
+      <div class="footer_logo_box">
+        <a href="#home" class="footer_logo">
+          Marcos
+          <img
+            src="assets/svg/logo.svg"
+            alt="Thiago{}"
+            width="25"
+            height="34"
+            class="footer_logo-img"
+          />
+        </a>
+      </div>
+    </footer>
+    <!--============ SCROLL UP ============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <img
+        class="scrollup_icon"
+        src="./assets/svg/arrow.svg"
+        width="24"
+        height="24"
+        alt="Arrow"
+      />
+    </a>
+    <!--============ SCROLLREVEAL ============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--============ SWIPER BUNDLE ============-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!--============ JS ============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
