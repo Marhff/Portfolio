@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/github/license/marhff/portfolio?color=B08968" />
 </div>
 
-<h3 align="center">You can access the project <a href="https://marhf-portfolio.netlify.app" target="_blank">Clicking here</a></h3>
+<h3 align="center">You can access the project <a href="https://marhf.netlify.app" target="_blank">Clicking here</a></h3>
 
 
 
