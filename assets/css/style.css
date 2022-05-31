@@ -2,6 +2,9 @@
 @import './global/global.css';
 @import './utilities/typography.css';
 @import './utilities/colors.css';
+@import "./experiencia.css";
+@import "./formacao.css";
+
 
 /* UTILITIES */
 @import './utilities/components.css';
@@ -23,7 +26,7 @@
   --link-hover: #1a1a1a;
   --link-active: #171515;
   --scrollup-hover: #947154;
-  --scrollbar: #555555;
+  --scrollbar: #947154;
   --white: #f7f7f7;
   --gray: #c4c4c4;
   --black: #171515;
@@ -52,7 +55,7 @@ input {
 }
 
 body {
-  margin: 3.5rem 0 0 0;
+  margin: 0;
   background-color: var(--body-color);
   color: var(--text-color);
 }
@@ -286,7 +289,7 @@ body.dark-theme {
 }
 
 .about_text {
-  padding-left: 1.5625rem;
+  padding-left: 1.000rem;
 }
 
 .about_title {
@@ -457,6 +460,22 @@ body.dark-theme {
     filter: contrast(50000%) brightness(100%);
   }
 
+
+  .subtitulo {
+    font-size: 8rem;
+    line-height: 1;
+    text-transform: uppercase;
+    word-break: break-all;
+    max-width: 4ch;
+  }
+  
+  @media (max-width: 800px) {
+    .subtitulo {
+      font-size: 3rem;
+      text-transform: capitalize;
+      max-width: initial !important;
+    }
+  }
 /*============================= Services ======================================*/
 .services_title {
   padding-top: 6.25rem;
