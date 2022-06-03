@@ -406,8 +406,19 @@ body.dark-theme {
   text-align: center;
 }
 
-.Button{
+.exp_button {
+  display:flexbox;
+  background: var(--button);
+  border-radius: 8px;
+  font-weight: var(--font-weight-semibold);
+  font-size: 1.125rem;
+  text-align: center;
+  color: var(--title-color);
+  padding: 1rem 2.875rem;
+}
 
+.about_button:hover {
+  background-color: var(--button-hover);
 }
 
 /*=================================CONTATO====================================*/
