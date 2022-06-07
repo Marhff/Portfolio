@@ -821,6 +821,7 @@ body.dark-theme {
     column-gap: 1rem;
   }
   .home_img {
+    display: none;
     width: 190px;
   }
   .home_description {
