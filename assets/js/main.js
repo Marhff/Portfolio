@@ -66,6 +66,8 @@ sr.reveal(`.home_data, .about_emp, .project_title, .services_title, .empresa,.fo
 sr.reveal(`.project_data, .services_container`, { delay: 400 });
 sr.reveal(`.services_design`, { origin: 'left' });
 sr.reveal(`.services_development`, { origin: 'right' });
+
+  
 // Scroll Ative Link
 const sections = document.querySelectorAll('section[id]');
 function scrollActive() {

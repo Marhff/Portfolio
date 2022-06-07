@@ -101,6 +101,9 @@ body.dark-theme {
 }
 
 /* General Styles */
+
+
+
 .nav_btns {
   display: flex;
   align-items: center;
@@ -217,6 +220,8 @@ body.dark-theme {
 }
 
 .home_img {
+    display:grid;
+    max-width:200px;
   justify-self: center;
 }
 
@@ -285,6 +290,11 @@ body.dark-theme {
 }
 
 .about_img {
+    display:grid;
+    max-width:auto;
+    border-radius: 50%;
+    border: solid 2px;
+    border-color: #947154;
   justify-self: center;
 }
 
@@ -636,37 +646,54 @@ body.dark-theme {
   .services_title {
     font-size: 2rem;
   }
-  .home_description,
   .about_description,
   .project_text {
     font-size: 1rem;
   }
-  .home_img {
-    width: 150px;
+  .home_description{
+    font-size: 1rem;
+     max-width: 250px;
   }
+
   .home_links,
   .about_links {
     max-width: 22px;
   }
-  .home_img,
+  .home_img{
+   width: 90px;
+   position: absolute;
+   margin-left: 4rem;
+   margin-top: 10rem;
+  }
   .about_img {
-    display: none;
+    display:grid;
+    max-width: 200px;
+    border-radius: 50%;
+    border: solid 2px;
+    border-color: #947154;
+    
   }
   .about_emp-logo {
     max-width: 100px;
     place-self: center;
   }
-  .about_data,
+  
   .project_container,
   .services_container {
     grid-template-columns: 1fr;
   }
+  .about_data{
+    grid-template-columns: 1fr;
+    padding-top: 50px;
+    margin: 20px;
+  }
   .about_emp {
     display: grid;
-    padding-top: 3.125rem;
+    padding-top: 1.125rem;
     grid-template-columns: repeat(2, 1fr);
   }
   .about_text {
+    padding-top: 30px;
     padding-left: 0.9375rem;
   }
   .about_button {
@@ -763,9 +790,6 @@ body.dark-theme {
   .home_container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-  }
-  .home_img {
-    width: 190px;
   }
   .home_container {
     padding-top: 8rem;

@@ -97,13 +97,25 @@
     gap: 40px;
   }
   .formacao .subtitulo {
-    color: #ffffff;
+    
+    color:var(--title-color);
   }
   .formacao-texto {
+    color: var(--text-color);
     font-size: 1.25rem;
   }
   .formacao-extra h3::before {
     position: initial;
     margin-bottom: 20px;
+    color: var(--text-color);
   }
+  .cursos li {
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-color);
+  }
+  .cursos h3 {
+    color: var(--title-color);
+  }
+
 }

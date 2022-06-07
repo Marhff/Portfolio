@@ -15,8 +15,8 @@
 
 .contact_dice {
   background-color:#947154;
-  border-radius: 0.9375rem 0.9375rem 0.9375rem 0.9375rem;
-  padding: 2.9375rem 3.125rem 63px 3.125rem;
+  border-radius: 0.9375rem;
+  padding: 2rem;
 }
 
 .contact_dice h2 {

@@ -115,7 +115,7 @@ body.dark-theme {
     gap: 40px;
   }
   .experiencia .subtitulo {
-    color: #141414;
+    color:var(--title-color);
   }
   .experiencia-texto {
     font-size: 1.25rem;
@@ -126,11 +126,15 @@ body.dark-theme {
     width: initial;
     text-align: left;
   }
+  
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .empresa {
     grid-template-columns: 1fr;
+  }
+  .empresa-ano {
+   display: none;
   }
 }
  
