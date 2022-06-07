@@ -654,7 +654,7 @@ body.dark-theme {
     grid-template-columns: 1fr;
     width: 90px;
     position: absolute;
-    margin-left: 100px;
+    margin-left:5rem;
     margin-top: 10rem;
     margin-right: -100px;
   }
