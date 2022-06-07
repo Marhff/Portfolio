@@ -662,9 +662,9 @@ body.dark-theme {
   .home_img{
    width: 90px;
    position: absolute;
-   margin-block-end: 10px;
    margin-left:100px;
    margin-top: 10rem;
+   margin-right:-100px;
   }
   .about_img {
     display:grid;
