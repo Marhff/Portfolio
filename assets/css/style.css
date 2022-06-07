@@ -220,7 +220,7 @@ body.dark-theme {
 }
 
 .home_img {
-    display:grid;
+    display:none;
     max-width:200px;
   justify-self: center;
 }
