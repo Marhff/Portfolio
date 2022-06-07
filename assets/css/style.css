@@ -626,7 +626,7 @@ body.dark-theme {
   }
 }
 
-@media screen and (max-width: 1793px) {
+@media screen and (max-width: 767px) {
   .home {
     padding-top: 3.125rem;
   }
@@ -660,10 +660,7 @@ body.dark-theme {
     max-width: 22px;
   }
   .home_img{
-   width: 90px;
-   position: absolute;
-   margin-left:5rem;
-   margin-top: 10rem;
+  display: none;
   }
   .about_img {
     display:grid;
