@@ -660,10 +660,7 @@ body.dark-theme {
     max-width: 22px;
   }
   .home_img{
-   width: 90px;
-   position: absolute;
-   margin-left:15rem;
-   margin-top: 10rem;
+  display: none;
   }
   .about_img {
     display:grid;
