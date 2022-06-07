@@ -1,20 +1,15 @@
 /* GLOBAL */
-@import './global/global.css';
-@import './utilities/typography.css';
-@import './utilities/colors.css';
+@import "./global/global.css";
+@import "./utilities/typography.css";
+@import "./utilities/colors.css";
 @import "./experiencia.css";
 @import "./formacao.css";
 
-
 /* UTILITIES */
-@import './utilities/components.css';
+@import "./utilities/components.css";
 
 /* CONTACT */
-@import './contact/contact.css';
-
-
-
-
+@import "./contact/contact.css";
 
 :root {
   --primary-color: #b08968;
@@ -30,7 +25,7 @@
   --white: #f7f7f7;
   --gray: #c4c4c4;
   --black: #171515;
-  
+
   --font-weight-bold: 700;
   --font-weight-semibold: 600;
   --font-weight-medium: 500;
@@ -50,7 +45,7 @@ html {
 body,
 button,
 input {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
 }
 
@@ -101,8 +96,6 @@ body.dark-theme {
 }
 
 /* General Styles */
-
-
 
 .nav_btns {
   display: flex;
@@ -220,8 +213,8 @@ body.dark-theme {
 }
 
 .home_img {
-    display:grid;
-    max-width:200px;
+  display: grid;
+  max-width: 200px;
   justify-self: center;
 }
 
@@ -290,16 +283,16 @@ body.dark-theme {
 }
 
 .about_img {
-    display:grid;
-    max-width:auto;
-    border-radius: 50%;
-    border: solid 2px;
-    border-color: #947154;
+  display: grid;
+  max-width: auto;
+  border-radius: 50%;
+  border: solid 2px;
+  border-color: #947154;
   justify-self: center;
 }
 
 .about_text {
-  padding-left: 1.000rem;
+  padding-left: 1rem;
 }
 
 .about_title {
@@ -383,7 +376,6 @@ body.dark-theme {
 }
 
 .project_img {
-
   padding: 1.5625rem 1.5625rem 0.625rem;
 }
 
@@ -417,7 +409,7 @@ body.dark-theme {
 }
 
 .exp_button {
-  display:flexbox;
+  display: flexbox;
   background: var(--button);
   border-radius: 8px;
   font-weight: var(--font-weight-semibold);
@@ -472,38 +464,37 @@ body.dark-theme {
   max-width: 30ch;
 }
 
-.contact_icons{
-    display: flex;
-    gap: 20px;
-    padding-top: 3.125rem;
-    padding-left: 3.125rem;
-    padding-bottom: 1.5625rem;
-    filter: contrast(50000%) brightness(100%);
-  }
+.contact_icons {
+  display: flex;
+  gap: 20px;
+  padding-top: 3.125rem;
+  padding-left: 3.125rem;
+  padding-bottom: 1.5625rem;
+  filter: contrast(50000%) brightness(100%);
+}
 
+.subtitulo {
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
 
+@media (max-width: 800px) {
   .subtitulo {
-    font-size: 8rem;
-    line-height: 1;
-    text-transform: uppercase;
-    word-break: break-all;
-    max-width: 4ch;
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
   }
-  
-  @media (max-width: 800px) {
-    .subtitulo {
-      font-size: 3rem;
-      text-transform: capitalize;
-      max-width: initial !important;
-    }
-  }
+}
 /*============================= Services ======================================*/
 .services_title {
   padding-top: 6.25rem;
   font-weight: var(--font-weight-semibold);
   font-size: 3.125rem;
   color: var(--title-color);
-  justify-self:center;
+  justify-self: center;
 }
 
 .services_pont {
@@ -650,41 +641,40 @@ body.dark-theme {
   .project_text {
     font-size: 1rem;
   }
-  .home_description{
+  .home_description {
     font-size: 1rem;
-     max-width: 250px;
+    max-width: 250px;
   }
 
   .home_links,
   .about_links {
     max-width: 22px;
   }
-  .home_img{
+  .home_img {
     grid-template-columns: 1fr;
-   width: 90px;
-   position: absolute;
-   margin-left:100px;
-   margin-top: 10rem;
-   margin-right:-100px;
+    width: 90px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 10rem;
+    margin-right: -100px;
   }
   .about_img {
-    display:grid;
+    display: grid;
     max-width: 200px;
     border-radius: 50%;
     border: solid 2px;
     border-color: #947154;
-    
   }
   .about_emp-logo {
     max-width: 100px;
     place-self: center;
   }
-  
+
   .project_container,
   .services_container {
     grid-template-columns: 1fr;
   }
-  .about_data{
+  .about_data {
     grid-template-columns: 1fr;
     padding-top: 50px;
     margin: 20px;
@@ -758,13 +748,7 @@ body.dark-theme {
     right: 15px;
   }
 
-
-
-
   /*============================Contato===============================*/
-
-
-
 
   /*====================================================================*/
 }
@@ -836,7 +820,6 @@ body.dark-theme {
     padding-top: 3.75rem;
   }
   .about_img {
-    
     width: 320px;
     border-radius: 50%;
     border: 5px solid;
