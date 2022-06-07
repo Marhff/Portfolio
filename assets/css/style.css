@@ -656,7 +656,7 @@ body.dark-theme {
     position: absolute;
     margin-left:5rem;
     margin-top: 10rem;
-    margin-right: -100px;
+    margin-right:0px;
   }
   .about_img {
     display: grid;
