@@ -660,7 +660,7 @@ body.dark-theme {
     max-width: 22px;
   }
   .home_img{
-  display: none;
+  display:grid
   }
   .about_img {
     display:grid;
@@ -821,7 +821,6 @@ body.dark-theme {
     column-gap: 1rem;
   }
   .home_img {
-    display: none;
     width: 190px;
   }
   .home_description {
