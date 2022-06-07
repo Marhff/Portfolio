@@ -1,6 +1,6 @@
 .formacao {
   background: var(--boddy-color);
-  color: #808080;
+  color:var(--title-color);
 }
 
 .formacao-container {
@@ -23,11 +23,11 @@
   line-height: 1.33;
   max-width: 40ch;
   margin-bottom: 60px;
-  color: #a3a3a3;
+  color:var(--text-color);
 }
 
 .formacao-texto strong {
-  color: #131212;
+  color: var(--body-color);
 }
 
 .cursos {
@@ -37,7 +37,7 @@
 .formacao-extra h3 {
   font-size: 1.8275rem;
   line-height: 1.4;
-  color: #8f8f8f;
+  color:var(--text-color);
   text-transform: uppercase;
   margin-bottom: 30px;
   position: relative;
