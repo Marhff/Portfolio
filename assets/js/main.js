@@ -58,7 +58,7 @@ const sr = ScrollReveal({
 sr.reveal(`.home_img, .about_emp, .footer_text, .footer_logo_box,.experiencia,.contact`, {
   delay: 600,
 });
-sr.reveal(` .about_img`, { origin: 'left' });
+sr.reveal(` .about_img,.about_img2`, { origin: 'left' });
 sr.reveal(`.about_text`, { origin: 'right' });
 sr.reveal(`.home_data, .about_emp, .project_title, .services_title, .empresa,.formacao`, {
   delay: 300,

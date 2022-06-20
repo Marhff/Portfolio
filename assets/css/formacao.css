@@ -1,6 +1,6 @@
 .formacao {
   background: var(--boddy-color);
-  color: var(--title-color);
+  color: #808080;
 }
 
 .formacao-container {
@@ -23,21 +23,21 @@
   line-height: 1.33;
   max-width: 40ch;
   margin-bottom: 60px;
-  color: var(--text-color);
+  color: #a3a3a3;
 }
 
 .formacao-texto strong {
-  color: var(--body-color);
+  color: #131212;
 }
 
 .cursos {
-  margin-bottom: 0px;
+  margin-bottom:0px;
 }
 
 .formacao-extra h3 {
   font-size: 1.8275rem;
   line-height: 1.4;
-  color: var(--text-color);
+  color: #8f8f8f;
   text-transform: uppercase;
   margin-bottom: 30px;
   position: relative;
@@ -58,6 +58,7 @@
   font-size: 1.125rem;
   line-height: 1.1;
   margin-bottom: 20px;
+  
 }
 
 .formacao-extra span {
@@ -69,7 +70,7 @@
   justify-content: space-between;
 }
 
-.dark-theme formacao:hover {
+.dark-theme formacao:hover  {
   --title-color: #f2f2f2;
   --text-color: #000000;
   --body-color: #171515;
@@ -88,6 +89,7 @@
   color: var(--white);
 }
 
+
 @media (max-width: 800px) {
   .formacao-container {
     grid-template-columns: 1fr;
@@ -95,7 +97,8 @@
     gap: 40px;
   }
   .formacao .subtitulo {
-    color: var(--title-color);
+    
+    color:var(--title-color);
   }
   .formacao-texto {
     color: var(--text-color);
@@ -114,4 +117,5 @@
   .cursos h3 {
     color: var(--title-color);
   }
+
 }
