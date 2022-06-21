@@ -25,6 +25,7 @@
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [ScrollReveal](https://scrollrevealjs.org/)
 - [Swiper](https://swiperjs.com/)
+- [Figma](https://)
 
 ---
 
